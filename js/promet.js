@@ -1,5 +1,5 @@
 /*!
- * Rishiraj Purohit - promet Bootstrap Theme (http://startbootstrap.com)
+ * Rishiraj Purohit - promet Custom Theme (http://rishirajpurohit.in)
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */

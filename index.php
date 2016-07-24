@@ -59,7 +59,7 @@
                 </button>
                 <a class="navbar-brand page-scroll inline" href="#page-top">
                    <img src="img/logo.png" class="img-responsive rx-logo" >
-                   <span class="light">Pro</span>met
+                   <span class="light">Pro</span><span class="clr-secondary">met</span>
                 </a>
             </div>
 
@@ -68,16 +68,16 @@
                 <ul class="nav navbar-nav">
                     <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
                     <li class="hidden">
-                        <a href="#page-top"></a>
+                        <a target="_blank" href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">About</a>
+                        <a class="page-scroll ul-secondary" href="#about">About</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#join">Join</a>
+                        <a class="page-scroll ul-secondary" href="#join">Join</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
+                        <a class="page-scroll ul-secondary" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -92,10 +92,10 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
-                        <h1 class="brand-heading">promet</h1>
-                        <p class="intro-text">A free, responsive, one page Bootstrap theme.
+                        <h1 class="brand-heading">pro<span class="clr-secondary">met</span></h1>
+                        <p class="intro-text">A free, responsive, one page Custom Theme.
                             <br>Created by Rishiraj Purohit.</p>
-                        <a href="#about" class="btn btn-circle page-scroll">
+                        <a target="_blank" href="#about" class="btn btn-circle page-scroll">
                             <i class="fa fa-angle-double-down animated"></i>
                         </a>
                     </div>
@@ -108,9 +108,9 @@
     <section id="about" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-                <h2>About promet</h2>
-                <p>promet is a free Bootstrap 3 theme created by Rishiraj Purohit. It can be yours right now, simply download the template on <a href="http://rishirajpurohit.in/templates/promet/">the preview page</a>. The theme is open source, and you can use it for any purpose, personal or commercial.</p>
-                <p>This theme features stock photos by <a href="http://gratisography.com/">Gratisography</a> along with a custom Google Maps skin courtesy of <a href="http://snazzymaps.com/">Snazzy Maps</a>.</p>
+                <h2 class="heading-ul">About pro<span class="clr-secondary">met</span></h2>
+                <p>promet is a free Bootstrap 3 theme created by Rishiraj Purohit. It can be yours right now, simply download the template on <a target="_blank" href="http://rishirajpurohit.in/templates/promet/">the preview page</a>. The theme is open source, and you can use it for any purpose, personal or commercial.</p>
+                <p>This theme features stock photos by <a target="_blank" href="http://gratisography.com/">Gratisography</a> along with a custom Google Maps skin courtesy of <a target="_blank" href="http://snazzymaps.com/">Snazzy Maps</a>.</p>
                 <p>promet includes full HTML, CSS, and custom JavaScript files along with LESS files for easy customization.</p>
             </div>
         </div>
@@ -121,9 +121,9 @@
         <div class="join-section">
             <div class="container">
                 <div class="col-lg-8 col-lg-offset-2">
-                    <h2>join promet !! <p id="id01"></p> </h2>
+                    <h2 class="heading-ul">join pro<span class="clr-secondary">met</span> !! <p id="id01"></p> </h2>
                     <p>You can download promet for free on the preview page at Rishiraj Purohit.</p>
-                    <a href="http://rishirajpurohit.in/templates/promet/" class="btn btn-default btn-lg">Visit join Page</a>
+                    <a target="_blank" href="http://rishirajpurohit.in/templates/promet/" class="btn btn-default btn-lg">Visit join Page</a>
                 </div>
             </div>
         </div>
@@ -133,19 +133,19 @@
     <section id="contact" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-                <h2>Contact Rishiraj Purohit</h2>
+                <h2 class="heading-ul">Contact Rishiraj Purohit</h2>
                 <p>Feel free to email us to provide some feedback on our templates, give us suggestions for new templates and themes, or to just say hello!</p>
-                <p><a href="mailto:feedback@startbootstrap.com">feedback@startbootstrap.com</a>
+                <p><a target="_blank" href="mailto:feedback@rishirajpurohit.in">feedback@rishirajpurohit.in</a>
                 </p>
                 <ul class="list-inline banner-social-buttons">
                     <li>
-                        <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                        <a target="_blank" href="https://twitter.com/ri5hiraj" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
                     </li>
                     <li>
-                        <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                        <a target="_blank" href="https://github.com/rishirajpurohit" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
                     </li>
                     <li>
-                        <a href="https://plus.google.com/+Startbootstrap/posts" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
+                        <a target="_blank" href="https://plus.google.com/+rishirajpurohitakarex" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
                     </li>
                 </ul>
             </div>
@@ -158,7 +158,7 @@
     <!-- Footer -->
     <footer>
         <div class="container text-center">
-            <p>Copyright &copy; Your Website 2016</p>
+            <p>Copyright &copy; PROMET 2016</p>
         </div>
     </footer>
 

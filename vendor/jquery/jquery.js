@@ -2668,7 +2668,7 @@ support.sortDetached = assert(function( div1 ) {
 // Prevent attribute/property "interpolation"
 // http://msdn.microsoft.com/en-us/library/ms536429%28VS.85%29.aspx
 if ( !assert(function( div ) {
-	div.innerHTML = "<a href='#'></a>";
+	div.innerHTML = "<a target="_blank" href='#'></a>";
 	return div.firstChild.getAttribute("href") === "#" ;
 }) ) {
 	addHandle( "type|href|height|width", function( elem, name, isXML ) {
@@ -4462,7 +4462,7 @@ function createSafeFragment( document ) {
 		input = document.createElement( "input" );
 
 	// Setup
-	div.innerHTML = "  <link/><table></table><a href='/a'>a</a><input type='checkbox'/>";
+	div.innerHTML = "  <link/><table></table><a target="_blank" href='/a'>a</a><input type='checkbox'/>";
 
 	// IE strips leading whitespace when .innerHTML is used
 	support.leadingWhitespace = div.firstChild.nodeType === 3;
@@ -8133,7 +8133,7 @@ jQuery.fn.delay = function( time, type ) {
 	// Setup
 	div = document.createElement( "div" );
 	div.setAttribute( "className", "t" );
-	div.innerHTML = "  <link/><table></table><a href='/a'>a</a><input type='checkbox'/>";
+	div.innerHTML = "  <link/><table></table><a target="_blank" href='/a'>a</a><input type='checkbox'/>";
 	a = div.getElementsByTagName( "a" )[ 0 ];
 
 	// Support: Windows Web Apps (WWA)
