@@ -343,3 +343,10 @@ h2.heading-ul{
 .dark-primary-color    { background: #512DA8; }
 .default-primary-color { background: #673AB7; }
 .secondary-color          { background: #FF5722; }
+
+/* Centering the div */
+.rx-connect {
+  position: absolute;
+  top: 50%;
+  left: 50%;transform: translate(-50%, -50%);
+}

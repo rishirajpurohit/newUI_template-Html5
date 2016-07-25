@@ -22,7 +22,11 @@
     <title>Project Management</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="/assets/css/theme-default/bootstrap.css" />
+
+    <!-- Material Admin -->
+    <link type="text/css" rel="stylesheet" href="/assets/css/theme-default/materialadmin.css" />
+
 
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -74,7 +78,7 @@
                         <a class="page-scroll ul-secondary" href="#about">About</a>
                     </li>
                     <li>
-                        <a class="page-scroll ul-secondary" href="#join">Join</a>
+                        <a class="page-scroll ul-secondary" href="/gateway.php">Enter App</a>
                     </li>
                     <li>
                         <a class="page-scroll ul-secondary" href="#contact">Contact</a>
@@ -95,7 +99,8 @@
                         <h1 class="brand-heading">pro<span class="clr-secondary">met</span></h1>
                         <p class="intro-text">A free, responsive, one page Custom Theme.
                             <br>Created by Rishiraj Purohit.</p>
-                        <a target="_blank" href="#about" class="btn btn-circle page-scroll">
+                        <p><a href="/gateway.php"><button class="btn btn-primary ink-reaction">Enter App</button></a></p>
+                        <a href="#about" class="btn btn-circle page-scroll">
                             <i class="fa fa-angle-double-down animated"></i>
                         </a>
                     </div>
@@ -123,7 +128,7 @@
                 <div class="col-lg-8 col-lg-offset-2">
                     <h2 class="heading-ul">join pro<span class="clr-secondary">met</span> !! <p id="id01"></p> </h2>
                     <p>You can download promet for free on the preview page at Rishiraj Purohit.</p>
-                    <a target="_blank" href="http://rishirajpurohit.in/templates/promet/" class="btn btn-default btn-lg">Visit join Page</a>
+                    <a target="_blank" href="/gateway.php" class="btn btn-default btn-lg">Enter App</a>
                 </div>
             </div>
         </div>
@@ -162,7 +167,7 @@
         </div>
     </footer>
 
-    <!-- jQuery -->
+   <!-- jQuery -->
     <script src="vendor/jquery/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
@@ -176,6 +181,11 @@
 
     <!-- Theme JavaScript -->
     <script src="js/promet.min.js"></script>
+
+     <script src="/assets/js/libs/nanoscroller/jquery.nanoscroller.min.js"></script>
+        
+        <!-- Put App.js last in your javascript imports -->
+        <script src="/assets/js/core/source/App.min.js"></script>
 
 </body>
 
