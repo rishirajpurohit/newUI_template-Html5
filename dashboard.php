@@ -142,7 +142,7 @@ a{
     text-shadow: 2px 2px 1px #a0a0a0;
     font-family: inherit;
     font-variant: small-caps;">
-												Create New Project front
+												Create New Project
 											</span>
 										</div>
 									</div><!--end .card-body -->
