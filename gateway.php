@@ -109,6 +109,15 @@
                                 <input type="password" class="form-control" id="Password2">
                                 <label for="Password2"><i class="fa fa-pencil"></i> Password</label>
                             </div>
+                            <div class="text-center text-white ">
+                            <div class="text-primary"> Or Use :</div>
+                                <span class="facebook-login social-btn">
+                                    <button type="submit" class="btn btn-flat  ink-reaction"><i class="fa fa-external-link"></i> FaceBook</button>
+                                </span>
+                                <span class="google-login text-white social-btn">
+                                    <button type="submit" class="btn btn-flat  ink-reaction"><i class="fa fa-external-link"></i> Google</button>
+                                </span>
+                            </div>
                         </div><!-- card body end -->
                         <hr/>
                         <div class="card-actionbar">
